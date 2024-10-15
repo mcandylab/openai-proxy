@@ -1,5 +1,5 @@
 {
-  "name": "bot-semen",
+  "name": "openai-proxy",
   "version": "1.0.0",
   "main": "build/index.js",
   "type": "commonjs",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "Andrey Abramov",
   "license": "ISC",
-  "description": "Бот Семён",
+  "description": "Openai Proxy",
   "devDependencies": {
     "@types/node": "20.12.7",
     "eslint": "^8.57.0",
@@ -36,5 +36,10 @@
       "npm run fix",
       "npm run prettier"
     ]
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3"
   }
 }
